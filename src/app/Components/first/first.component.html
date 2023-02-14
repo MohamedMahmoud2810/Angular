@@ -1,0 +1,16 @@
+<form >
+
+<input type="text" class="form-control w-25 m-5"  placeholder="First Name" (input) = "getData($event)" />
+<p class="m-5">Data : {{firstName}}</p>
+
+
+  <!-- <input type="text" placeholder="First Name" [(ngModel)] = "firstName" />
+  <p>Data : {{firstName}}</p> -->
+
+
+<!-- <input type="text" placeholder="First Name" [(ngModel)] = "firstName" />
+  <p>Data : {{firstName}}</p> -->
+
+  <input  type="reset" class="btn btn-secondary ms-5" (click)="res()" placeholder="Reset">
+</form>
+
